@@ -1,0 +1,15 @@
+{
+    "rewrites": [
+      {
+        "source": "/",
+        "destination": "/bt.html"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/bt.html"
+      }
+    ]
+  }
+  
